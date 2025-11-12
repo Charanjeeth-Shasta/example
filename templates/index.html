@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Home</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{url_for('index')}}" class="active">Home</a></li>
+                <li><a href="{{url_for('education')}}">Education</a></li>
+                <li><a href="{{url_for('experience')}}">Experience</a></li>
+                <li><a href="{{url_for('projects')}}">Projects</a></li>
+                <li><a href="{{url_for('writetome')}}">Write to Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to My Portfolio!</h1>
+        <p>
+            This is the main page of my personal website. I built this as a prerequisite
+            for my Flask class. This site is made of simple HTML and CSS.
+        </p>
+        <p>
+            Use the navigation bar above to check out my other pages.
+        </p>
+    </main>
+</body>
+</html>
